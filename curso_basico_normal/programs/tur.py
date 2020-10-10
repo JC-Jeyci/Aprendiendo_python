@@ -7,8 +7,10 @@ def make_line_and_turn(test, largo):
 
 
 def make_square(test):
-    largo = int(input())
-    make_line_and_turn(test, largo)
+    largo = int(input('Introduce el tamaño del cuadrado'))
+
+    for i in range(4):
+        make_line_and_turn(test, largo)
 
 
 def main():
